@@ -1,0 +1,78 @@
+.trajeta{
+    width: 480px;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+         .trajeta .cabecera{
+            display: flex;
+            padding: 10px;
+            border: rgb(82, 78, 78) solid;
+            border-radius: 10% 10% 0% 0%;
+            font-size: 20px;
+         }
+         .trajeta.cabecera img{
+            width: 170px;
+            height: 170px;
+            border-radius: 70%;
+            padding-right: 5px;
+            border: rgb(53, 54, 54);
+         }
+         .trajeta.cabecera span{
+            flex: 1;
+            text-align: center;
+            padding-top: 40px;
+         }
+         .trajeta.cuerpo{
+            text-align: justify;
+            font-size: 18px;
+            padding: 10px;
+         }
+         .trajeta .pie{
+            border: rgb(63, 59, 62) solid;
+            border-radius: 0% 0% 10% 10%;
+         }
+         .trajeta .pie button{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            background-color: rgb(192, 143, 163);
+            color: aliceblue;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-right: 10px;
+            padding-left: 10px;
+
+         }
+
+.colorfondoazul{
+    background-color: rgb(168, 161, 189);
+    padding: 1px;
+    color: rgb(10, 10, 10);
+    border: rgb(46, 46, 46);
+    border-radius: 0% 0% 0% 0%;
+}
+.colorfondovioleta{
+    background-color: rgb(107, 74, 117);
+    color: rgb(48, 50, 54);
+    padding: 10px;
+}
+.colorfondoazulclaro{
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    background-color: rgb(17, 9, 9);
+    height: 100vh;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+}
+
+.alinearcentro{
+    display: flex;
+}
