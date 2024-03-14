@@ -1,0 +1,40 @@
+.pagina{
+    background-image:image-set("Fondo_mgg.png");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+h2{
+    color: rgb(219, 219, 255);
+    background-color: rgb(159, 102, 206);
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.areBonita{
+    border: 10px;
+    border-radius: 10px;
+    background-color: rgba(40, 59, 51, 0.637);
+    height: 45px;
+    font-size: 20px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    height: 10px;
+}
+
+.datos{
+    background-color: rgba(40, 59, 51, 0.637) ;
+    color: rgb(255, 255, 255);
+}
