@@ -1,0 +1,64 @@
+.pagina {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.cabecera {
+    background-color: rgb(212, 150, 212);
+    color: rgb(252, 244, 233);
+    overflow: hidden;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(224, 191, 215);
+    margin-top: 70px;
+    height: 450px;
+    width: 1300px;
+    margin-left: 35px;
+}
+
+.fondoContenido {
+    background-color: rgb(214, 160, 203);
+}
+
+.contenido .izquierda{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+.contenido .centro{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.contenido .derecha {
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
