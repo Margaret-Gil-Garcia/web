@@ -1,0 +1,46 @@
+.logo{
+    width: 100px;
+    height: 80px;
+    align-items: center;
+}
+.alerta{
+    width: 900px;
+    height: 40px;
+}
+.alert{
+    width: 440;
+    height: 40;
+    align-content: center;
+    margin-left: 330px;
+}
+.container-fluid{
+    background-color: #5f19ec;
+}
+.tc{
+    color: black;
+    background: transparent;
+}
+.iconos{
+    align-items: center;
+}
+.bg{
+    background-color:#6600ff;
+}
+.text-large{
+    text-align: center;
+}
+.text-small{
+    font-size: 10px;
+}
+.ttx{
+    margin-left: 40%;
+}
+.container{
+    background-color: white;
+    border-radius: 4px;
+}
+.container .container{
+    background-color: #8400ff;
+    width: 95%;
+    height: 50%;
+}
